@@ -1,0 +1,109 @@
+# Ignore all files without extensions (cpp compiled)
+*
+!*.*
+!*/
+!Doxyfile
+
+# pas de fichier *~
+*/*~
+*/*/*~
+
+# pas de fichier .bak
+*/*.bak
+*/*/*.bak
+
+# pas de fichier .o
+*/*.o
+*/*/*.o
+
+# pas de fichier .exe
+*/*.exe
+*/*/*.exe
+
+# pas de dossier release
+*/release/
+*/*/release/
+
+# pas de dossier debug
+*/debug/
+*/*/debug/
+
+# pas de dossier build-*
+*/build-*/
+*/*-build-*/
+*/*/build-*/
+*/*/*-build-*/
+
+# pas de fichier .user
+*/*.user
+*/*/*.user
+
+# pas de fichier .user.*
+*/*.user.*
+*/*/*.user.*
+
+# pas de fichier Makefile.*
+*/Makefile.*
+*/*/Makefile.*
+
+# pas de fichier .qmake.stash
+*/.qmake.stash
+*/*/.qmake.stash
+
+# pas de fichier .pri
+*/.pri
+*/*/.pri
+
+# pas de dossier.cmake
+*/.cmake/
+*/*/.cmake/
+
+# pas de dossier CMakeFiles
+
+*/CMakeFiles/
+*/*/CMakeFiles/
+
+# pas de fichier cmake_install.cmake
+
+*/cmake_install.cmake
+*/*/cmake_install.cmake
+
+# pas de fichier CMakeCache.txt
+
+*/CMakeCache.txt*
+*/*/CMakeCache.txt*
+
+# pas de html
+
+*/*.htm
+*/*.html
+*/*/*.htm
+*/*/*.html
+
+# user defined
+baba_is_you/.qtc_clangd/*
+*/*autogen
+*/.idea
+*/*.ninja
+*/.ninja
+*/.ninja*
+*/*.ninja*
+*/.qt
+*/qtcsettings.cmake
+*/Testing
+baba_is_you/.qtc/
+
+baba_is_you/*/.qtc_clangd/*
+*/*/*autogen
+*/*/.idea
+*/*/*.ninja
+*/*/.ninja
+*/*/.ninja*
+*/*/*.ninja*
+*/*/.qt
+*/*/qtcsettings.cmake
+*/*/Testing
+*/_deps/
+
+#no doxygen output
+*/doc/ 
