@@ -1,5 +1,5 @@
 # Baba is You
-DEV4 - 2022 / 2023  
+School Project - 2022 / 2023  
 
 ## Developers
 * Mossab DELBERGUE   
@@ -7,7 +7,7 @@ DEV4 - 2022 / 2023
 ## Time estimations
 * **Release 1:** 10h
 * **Release 2:** 40h
-* **Release 2:** _TBD_
+* **Release 2:** 40h
 # About
 
 Our project is a reinterpretation of _Baba Is You_, a puzzle game whose rules are defined by blocks you can push around to try and solve the level. 
